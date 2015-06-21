@@ -6,10 +6,14 @@ Prefixes:</br>
 "f" - means that measurements was calculated using FFT</br>
 "t" - means that this is a time domain measurements</br>
 </br></br>
-Patterns described:</br>
+Patterns:</br>
 "Acc" - accelerometer measurements</br>
 "Gyro" - gyroscope measurements</br>
 "Jerk" -  JERK signal</br>
+"Mag" -  magnitude</br>
+"Freq" -  frequency</br>
+"mean" -  average value</br>
+"std" -  standard deviation</br>
 </br></br>
 Postfixes:</br>
 X,Y,Z - identifies the spatial dimensions of measurements (where applicable)</br>
