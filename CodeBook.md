@@ -1,109 +1,109 @@
 This data dictionary describes the naming conventions used for the data set as well as list all the vairables.
 The goals is to give a clear understanding for the reader what each variable means.
 
-1. NAMING CONVENTIONS
-Prefixes:
-"f" - means that measurements was calculated using FFT
-"t" - means that this is a time domain measurements
-
-Patterns described:
-"Acc" - accelerometer measurements
-"Gyro" - gyroscope measurements
-"Jerk" -  JERK signal
-
-Postfixes:
-X,Y,Z - identifies the spatial dimensions of measurements (where applicable)
-
-2. ALL VARIABLES
-A list of all data variables in the data set (in order of appearance):
-	"activity"
-	"subject"
-	"tBodyAcc.mean...X"
-	"tBodyAcc.mean...Y"
-	"tBodyAcc.mean...Z"
-	"tGravityAcc.mean...X"
-	"tGravityAcc.mean...Y"
-	"tGravityAcc.mean...Z"
-	"tBodyAccJerk.mean...X"
-	"tBodyAccJerk.mean...Y"
-	"tBodyAccJerk.mean...Z"
-	"tBodyGyro.mean...X"
-	"tBodyGyro.mean...Y"
-	"tBodyGyro.mean...Z"
-	"tBodyGyroJerk.mean...X"
-	"tBodyGyroJerk.mean...Y"
-	"tBodyGyroJerk.mean...Z"
-	"tBodyAccMag.mean.."
-	"tGravityAccMag.mean.."
-	"tBodyAccJerkMag.mean.." 
-	"tBodyGyroMag.mean.." 
-	"tBodyGyroJerkMag.mean.."
-	"fBodyAcc.mean...X" 
-	"fBodyAcc.mean...Y"
-	"fBodyAcc.mean...Z"
-	"fBodyAcc.meanFreq...X"
-	"fBodyAcc.meanFreq...Y" 
-	"fBodyAcc.meanFreq...Z" 
-	"fBodyAccJerk.mean...X" 
-	"fBodyAccJerk.mean...Y" 
-	"fBodyAccJerk.mean...Z" 
-	"fBodyAccJerk.meanFreq...X" 
-	"fBodyAccJerk.meanFreq...Y"
-	"fBodyAccJerk.meanFreq...Z"
-	"fBodyGyro.mean...X" 
-	"fBodyGyro.mean...Y"
-	"fBodyGyro.mean...Z"
-	"fBodyGyro.meanFreq...X" 
-	"fBodyGyro.meanFreq...Y" 
-	"fBodyGyro.meanFreq...Z"
-	"fBodyAccMag.mean.." 
-	"fBodyAccMag.meanFreq.." 
-	"fBodyBodyAccJerkMag.mean.." 
-	"fBodyBodyAccJerkMag.meanFreq.."
-	"fBodyBodyGyroMag.mean.." 
-	"fBodyBodyGyroMag.meanFreq.."
-	"fBodyBodyGyroJerkMag.mean.."
-	"fBodyBodyGyroJerkMag.meanFreq.." 
-	"angle.tBodyAccMean.gravity." 
-	"angle.tBodyAccJerkMean..gravityMean."
-	"angle.tBodyGyroMean.gravityMean." 
-	"angle.tBodyGyroJerkMean.gravityMean." 
-	"angle.X.gravityMean."
-	"angle.Y.gravityMean." 
-	"angle.Z.gravityMean." 
-	"tBodyAcc.std...X"
-	"tBodyAcc.std...Y" 
-	"tBodyAcc.std...Z" 
-	"tGravityAcc.std...X" 
-	"tGravityAcc.std...Y"
-	"tGravityAcc.std...Z"
-	"tBodyAccJerk.std...X" 
-	"tBodyAccJerk.std...Y"
-	"tBodyAccJerk.std...Z"
-	"tBodyGyro.std...X"
-	"tBodyGyro.std...Y" 
-	"tBodyGyro.std...Z"
-	"tBodyGyroJerk.std...X"
-	"tBodyGyroJerk.std...Y"
-	"tBodyGyroJerk.std...Z" 
-	"tBodyAccMag.std.." 
-	"tGravityAccMag.std.." 
-	"tBodyAccJerkMag.std.." 
-	"tBodyGyroMag.std.." 
-	"tBodyGyroJerkMag.std.." 
-	"fBodyAcc.std...X" 
-	"fBodyAcc.std...Y"
-	"fBodyAcc.std...Z" 
-	"fBodyAccJerk.std...X" 
-	"fBodyAccJerk.std...Y" 
-	"fBodyAccJerk.std...Z" 
-	"fBodyGyro.std...X" 
-	"fBodyGyro.std...Y"
-	"fBodyGyro.std...Z"
-	"fBodyAccMag.std.."
-	"fBodyBodyAccJerkMag.std.." 
-	"fBodyBodyGyroMag.std.."
-	"fBodyBodyGyroJerkMag.std.."
+<b>1. NAMING CONVENTIONS </b></br>
+Prefixes:</br>
+"f" - means that measurements was calculated using FFT</br>
+"t" - means that this is a time domain measurements</br>
+</br></br>
+Patterns described:</br>
+"Acc" - accelerometer measurements</br>
+"Gyro" - gyroscope measurements</br>
+"Jerk" -  JERK signal</br>
+</br></br>
+Postfixes:</br>
+X,Y,Z - identifies the spatial dimensions of measurements (where applicable)</br>
+</br></br>
+2. <b>ALL VARIABLES</b></br>
+A list of all data variables in the data set (in order of appearance):</br>
+	"activity"</br>
+	"subject"</br>
+	"tBodyAcc.mean...X"</br>
+	"tBodyAcc.mean...Y"</br>
+	"tBodyAcc.mean...Z"</br>
+	"tGravityAcc.mean...X"</br>
+	"tGravityAcc.mean...Y"</br>
+	"tGravityAcc.mean...Z"</br>
+	"tBodyAccJerk.mean...X"</br>
+	"tBodyAccJerk.mean...Y"</br>
+	"tBodyAccJerk.mean...Z"</br>
+	"tBodyGyro.mean...X"</br>
+	"tBodyGyro.mean...Y"</br>
+	"tBodyGyro.mean...Z"</br>
+	"tBodyGyroJerk.mean...X"</br>
+	"tBodyGyroJerk.mean...Y"</br>
+	"tBodyGyroJerk.mean...Z"</br>
+	"tBodyAccMag.mean.."</br>
+	"tGravityAccMag.mean.."</br>
+	"tBodyAccJerkMag.mean.." </br>
+	"tBodyGyroMag.mean.." </br>
+	"tBodyGyroJerkMag.mean.."</br>
+	"fBodyAcc.mean...X" </br>
+	"fBodyAcc.mean...Y"</br>
+	"fBodyAcc.mean...Z"</br>
+	"fBodyAcc.meanFreq...X"</br>
+	"fBodyAcc.meanFreq...Y" </br>
+	"fBodyAcc.meanFreq...Z" </br>
+	"fBodyAccJerk.mean...X" </br>
+	"fBodyAccJerk.mean...Y" </br>
+	"fBodyAccJerk.mean...Z" </br>
+	"fBodyAccJerk.meanFreq...X" </br>
+	"fBodyAccJerk.meanFreq...Y"</br>
+	"fBodyAccJerk.meanFreq...Z"</br>
+	"fBodyGyro.mean...X" </br>
+	"fBodyGyro.mean...Y"</br>
+	"fBodyGyro.mean...Z"</br>
+	"fBodyGyro.meanFreq...X" </br>
+	"fBodyGyro.meanFreq...Y" </br>
+	"fBodyGyro.meanFreq...Z"</br>
+	"fBodyAccMag.mean.." </br>
+	"fBodyAccMag.meanFreq.." </br>
+	"fBodyBodyAccJerkMag.mean.." </br>
+	"fBodyBodyAccJerkMag.meanFreq.."</br>
+	"fBodyBodyGyroMag.mean.." </br>
+	"fBodyBodyGyroMag.meanFreq.."</br>
+	"fBodyBodyGyroJerkMag.mean.."</br>
+	"fBodyBodyGyroJerkMag.meanFreq.." </br>
+	"angle.tBodyAccMean.gravity." </br>
+	"angle.tBodyAccJerkMean..gravityMea</br>n."
+	"angle.tBodyGyroMean.gravityMean." </br>
+	"angle.tBodyGyroJerkMean.gravityMean." </br>
+	"angle.X.gravityMean."</br>
+	"angle.Y.gravityMean." </br>
+	"angle.Z.gravityMean." </br>
+	"tBodyAcc.std...X"</br>
+	"tBodyAcc.std...Y" </br>
+	"tBodyAcc.std...Z" </br>
+	"tGravityAcc.std...X" </br>
+	"tGravityAcc.std...Y"</br>
+	"tGravityAcc.std...Z"</br>
+	"tBodyAccJerk.std...X" </br>
+	"tBodyAccJerk.std...Y"</br>
+	"tBodyAccJerk.std...Z"</br>
+	"tBodyGyro.std...X"</br>
+	"tBodyGyro.std...Y" </br>
+	"tBodyGyro.std...Z"</br>
+	"tBodyGyroJerk.std...X"</br>
+	"tBodyGyroJerk.std...Y"</br>
+	"tBodyGyroJerk.std...Z" </br>
+	"tBodyAccMag.std.." </br>
+	"tGravityAccMag.std.." </br>
+	"tBodyAccJerkMag.std.." </br>
+	"tBodyGyroMag.std.." </br>
+	"tBodyGyroJerkMag.std.." </br>
+	"fBodyAcc.std...X" </br>
+	"fBodyAcc.std...Y"</br>
+	"fBodyAcc.std...Z" </br>
+	"fBodyAccJerk.std...X" </br>
+	"fBodyAccJerk.std...Y" </br>
+	"fBodyAccJerk.std...Z" </br>
+	"fBodyGyro.std...X" </br>
+	"fBodyGyro.std...Y"</br>
+	"fBodyGyro.std...Z"</br>
+	"fBodyAccMag.std.."</br>
+	"fBodyBodyAccJerkMag.std.." </br>
+	"fBodyBodyGyroMag.std.."</br>
+	"fBodyBodyGyroJerkMag.std.."</br>
 
  
  
