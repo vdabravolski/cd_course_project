@@ -31,7 +31,7 @@ columns <- as.character(columns_raw$V2)
 #apply column names to merged data set
 colnames(data) <- columns
 
-# fix issues with incorrect character int the data set. see http://stackoverflow.com/questions/28549045/dplyr-select-error-found-duplicated-column-name
+# fix issue with incorrect character in the data set. see http://stackoverflow.com/questions/28549045/dplyr-select-error-found-duplicated-column-name
 col_fixed <- make.names(names=names(data), unique=TRUE, allow_ = TRUE)
 names(data) <- col_fixed
 
@@ -65,7 +65,7 @@ data_cl$activity[data_cl$activity == "6"] <- "LAYING"
 ########################
 #Step 4. Appropriately labels the data set with descriptive variable names. 
 ########################
-# Nothing to do here. All columns have descriptive and unique names -  see data_dictionary.txt for details.
+# Nothing to do here. All columns have descriptive and unique names -  see CodeBook.MD txt for details.
 
 
 ########################
